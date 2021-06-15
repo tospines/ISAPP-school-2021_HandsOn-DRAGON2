@@ -1,0 +1,22 @@
+Basic instructions to install the DRAGON2 code.
+
+Before installing DRAGON, you must be sure you have installed in your computer CFITSIO (follow instructions at https://guaix.fis.ucm.es/~ncl/howto/howto-cfitsio) and gsl (to download the las version, do wget https://mirror.ibcp.fr/pub/gnu/gsl/gsl-latest.tar.gz, then follow the instructions at https://coral.ise.lehigh.edu/jild13/2016/07/11/hello/)
+Please, make sure you configured them before the tutorial!
+
+From your terminal, go to the folder where you would like to have DRAGON2
+  cd Tutorials
+  
+Download the contents for installing the software:
+  git clone https://github.com/cosmicrays/DRAGON2-Beta_version.git
+  
+Go to the folder that has been created
+  cd DRAGON2-Beta_version/
+
+Initializing and configuring:
+  ./start.sh
+  ./configure --with-numcpu=2 --with-cfitsio=$CFITSIO_DIR --with-gsl-path=$GSL_bin_path
+  make
+  
+ (for some users, you may need to include an option like CXX=g++ F77=gfortran in the ./configure step, in order to specify the compilers to be used)
+ 
+ If there is any problem with any of these steps, please, email me at pedro.delatorreluque@fysik.su.se
