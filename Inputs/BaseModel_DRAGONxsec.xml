@@ -2,7 +2,7 @@
 <Output>
   <partialstore />  <!-- The code writes the spectrum at Sun position for each species on a FITS file (optional) -->
   <fullstore />    <!-- The code writes the complete (r,z,p) grid of propagated particles for each species on a FITS file (optional) -->
-  <feedback value="1" />      <!-- To get the entire output, this value has to be set to 2 -->
+  <feedback value="1" />      <!-- To get the entire output, this value has to be different than 0 -->
 </Output>
 <Grid type="2D">          <!-- Number of spatial dimensions. Options: 2D, 3D -->
   <Observer> 
