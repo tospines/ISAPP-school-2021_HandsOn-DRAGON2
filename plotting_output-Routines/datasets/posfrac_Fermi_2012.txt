@@ -1,0 +1,21 @@
+# Data from SSDC cosmic rays database www.ssdc.asi.it 
+# File generated today 20210621 
+# Errors may contain statistic and systematic depending on the options set when drawing the graph 
+# Fluxes are multiplied by a power of Energy (or Rigidity) if the option is set when drawing the graph 
+# Horizontal errors usually are not uncertanties of the measurement but correspond to binning. See publication. 
+#
+# GraphTitle: e+/[(e-)+(e+)] Fermi-LAT PRL (2012); 2008-06-01,2011-04-30; 
+# XLabel: kinetic energy (GeV) 
+# YLabel: fluxratio 
+#
+# Columns: X, XErrorLow, XErrorHigh, Y, YErrorLow, YErrorHigh 
+2.260000e+01  0.000000e+00 0.000000e+00  9.400000e-02  1.044031e-02 1.044031e-02 
+2.845000e+01  0.000000e+00 0.000000e+00  9.900000e-02  1.140175e-02 1.044031e-02 
+3.580000e+01  0.000000e+00 0.000000e+00  1.130000e-01  1.300000e-02 1.300000e-02 
+4.505000e+01  0.000000e+00 0.000000e+00  1.190000e-01  1.526434e-02 1.442221e-02 
+5.670000e+01  0.000000e+00 0.000000e+00  1.190000e-01  1.910497e-02 1.843909e-02 
+7.140000e+01  0.000000e+00 0.000000e+00  1.310000e-01  3.220248e-02 3.220248e-02 
+8.980000e+01  0.000000e+00 0.000000e+00  1.890000e-01  5.255473e-02 5.220153e-02 
+1.130000e+02  0.000000e+00 0.000000e+00  1.600000e-01  5.053712e-02 4.810405e-02 
+1.425000e+02  0.000000e+00 0.000000e+00  2.100000e-01  7.158911e-02 6.830813e-02 
+1.795000e+02  0.000000e+00 0.000000e+00  3.000000e-01  1.360147e-01 1.334166e-01 

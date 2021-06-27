@@ -1,0 +1,16 @@
+# Data from SSDC cosmic rays database www.ssdc.asi.it 
+# File generated today 20200723 
+# Errors may contain statistic and systematic depending on the options set when drawing the graph 
+# Fluxes are multiplied by a power of Energy (or Rigidity) if the option is set when drawing the graph 
+# Horizontal errors usually are not uncertanties of the measurement but correspond to binning. See publication. 
+#
+# GraphTitle: B/C ATIC-2 ICRC (2008); 2002-12-29 00:00:00.0,2003-01-18 00:00:00.0; 
+# XLabel: kinetic energy (GeV/n) 
+# YLabel: fluxratio 
+#
+# Columns: X, XErrorLow, XErrorHigh, Y, YErrorLow, YErrorHigh 
+1.990000e+01  0.000000e+00 0.000000e+00  1.800000e-01  1.100000e-02 1.100000e-02 
+3.830000e+01  0.000000e+00 0.000000e+00  1.690000e-01  1.500000e-02 1.500000e-02 
+7.430000e+01  0.000000e+00 0.000000e+00  1.190000e-01  2.900000e-02 2.900000e-02 
+1.490000e+02  0.000000e+00 0.000000e+00  1.560000e-01  5.300000e-02 5.300000e-02 
+3.070000e+02  0.000000e+00 0.000000e+00  6.400000e-02  6.300000e-02 6.300000e-02 
